@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Loginpage from './componets/loginpage/Loginpage';
+
 
 function App() {
   return (
     <div className="App">
-      helloworld
+    <Loginpage />
+     
     </div>
   );
 }
