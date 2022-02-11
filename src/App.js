@@ -1,6 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Registrationpage from './component/registration-page';
+import Loginpage from './componets/loginpage/Loginpage';
 
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
     <div className="App">
       
       <Registrationpage/>
+    <Loginpage />
+     
     </div>
   );
 }
